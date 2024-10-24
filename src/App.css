@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+  background-color: #8bc4d5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  width: 80%; 
+  background-color: #b2e0d5; 
+  padding: 25px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+form div {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  color: #2e4a7a;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 20px;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #8bc4d5; 
+  background-color: #ffffff; 
+  color: #333;
+}
+
+button {
+  width: 100%; 
+  font-family: 'Poppins', sans-serif;
+  background-color: #8bc4d5;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.innerLabel {
+  color: #2e4a7a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.resultLabel {
+  color: #2e4a7a; 
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
